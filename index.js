@@ -5,16 +5,18 @@ const logger = require('./structures/other/logger');
 console.clear();
 
 const client = new Client({
-    intents: 98303,
+    intents: 72767,
     partials: ["MESSAGE", "CHANNEL", "REACTION", "USER"]
 });
 
 require('dotenv').config();
 
+//create a collection
 client.commands = new Collection();
 client.aliases = new Collection();
 client.events = new Collection();
 
+//exports the client
 module.exports = client;
 
 //load the handler
