@@ -10,7 +10,7 @@ made npm i with the terminal for installed the modules :
 6. npm i ms
 7. npm i dotenv
 
-remember to change your token in the .env file and change the information in the config.json
+remember to change your token in the .env file, change the information in the config.json and the database.js
 
 documentation discord.js : https://discord.js.org/#/docs/discord.js/main/general/welcome
 Guide discord.js : https://discordjs.guide/#before-you-begin
