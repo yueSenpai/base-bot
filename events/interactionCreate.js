@@ -74,9 +74,5 @@ client.on('interactionCreate', async interaction => {
         }
         cmd.runInteraction(client, interaction, db)
 
-    } else if (interaction.isAutocomplete()) {
-        const cmd = client.commands.get(interaction.commandName);
-        if (!cmd) return;
-        cmd.runAutocomplete(client, interaction, db);
     }
 })
