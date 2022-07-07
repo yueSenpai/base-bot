@@ -1,9 +1,8 @@
 {
     "prefix": "!",
-    "paypal": "https://www.paypal.me/AnastasiaAna564",
     "owner": {
-        "name": "Lotilia",
-        "tag": "#0069",
-        "id": "526153926916177920"
+        "name": "Lotilia", //your name
+        "tag": "#0069", //your tag
+        "id": "526153926916177920" //your ID
     }
 }
