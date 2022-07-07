@@ -17,10 +17,12 @@ client.events = new Collection();
 
 module.exports = client;
 
+//load the handler
 ['command', 'event'].forEach((handler) => {
     require(`./handlers/${handler}`)(client)
 });
 
+//anti crash
 process.on("exit", code => {
     logger.client(`Le processus c'est arrété avec le code: ${code} !`);
 });
@@ -34,6 +36,7 @@ process.on('unhandledRejection', (reason, promise) => {
 });
 process.on("warning", (...args) => logger.warn(...args));
 
+//connecting with a database
 db.connect(function (err) {
     if (err) {
         console.log(err);
@@ -42,4 +45,5 @@ db.connect(function (err) {
     }
 });
 
+//connecting bot
 client.login(process.env.TOKEN);
