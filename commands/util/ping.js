@@ -14,6 +14,6 @@ module.exports = {
 
     runInteraction: async (client, interaction) => {
 
-        interaction.editReply({ content: "pong" });
+        interaction.reply({ content: "pong" });
     }
 }
