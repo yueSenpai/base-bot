@@ -11,3 +11,7 @@ made npm i with the terminal for installed the modules :
 7. npm i dotenv
 
 remember to change your token in the .env file and change the information in the config.json
+
+documentation discord.js : https://discord.js.org/#/docs/discord.js/main/general/welcome
+Guide discord.js : https://discordjs.guide/#before-you-begin
+documention aplication command : https://discord.com/developers/docs/interactions/application-commands 
